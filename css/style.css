@@ -1,0 +1,249 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: helvetica, arial, sans-serif;
+}
+
+#page-container {
+	background: white;
+	width: 585px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#header h1,#footer h1,#sidebar h1, #sidebarC h1, #sidebarI h1  {
+	margin:0px;
+	display:block;
+	text-indent:-9999px;
+}
+
+#header {
+	background-image: url(/img/header.png);
+	background-repeat: no-repeat;
+	height: 130px;
+	width:650px;
+}
+
+#main-nav {
+	height: 39px;
+	width: 650px;
+	
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#blob {
+    background: #373737;
+    border-right: 1px solid #aeadae;
+    border-left: 1px solid #aeadae;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    background: -moz-linear-gradient(top, #373737, #6b6b6b);
+    background: -webkit-gradient(linear, left top, left bottom, from(#373737), to(#6b6b6b));
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	box-shadow:2px 3px 10px #202121;
+    -moz-box-shadow: 2px 3px 10px #202121;
+    -webkit-box-shadow: 2px 3px 10px #202121;
+}
+
+#nav {
+    position: relative;
+    background: #292929;
+    float: left;
+}
+
+#nav li {
+    float: left;
+    list-style: none;
+    border-right: 1px solid #4a4a4a;
+    border-left: 1px solid black;
+}
+
+#nav li a {
+    color: #e3e3e3;
+    z-index: 2;
+    position: relative;
+    float: left;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px 25px;
+
+}
+
+
+#main-content {
+	width: 574px;
+	background-image: white, url(/img/bg_slice.png);
+	height: 700px;
+	-moz-box-shadow: 0 -6px 110px   #000000;
+	-webkit-box-shadow: 0 -6px 110px   #000000;
+	box-shadow: 0 -6px 110px   #000000;
+	margin-top:5px;
+}
+
+#main-contentI {
+	width: 574px;
+	background-image: white, url(/bg_slice.png);
+	height: 1550px;
+	-moz-box-shadow: 0 -6px 110px   #000000;
+	-webkit-box-shadow: 0 -6px 110px   #000000;
+	box-shadow: 0 -6px 110px   #000000;
+	margin-top:5px;
+}
+
+
+#main-contentR {
+	width: 574px;
+	background-image: white, url(/bg_slice.png);
+	height: 3050px;
+	-moz-box-shadow: 0 -6px 110px   #000000;
+	-webkit-box-shadow: 0 -6px 110px   #000000;
+	box-shadow: 0 -6px 110px   #000000;
+	margin-top:5px;
+}
+
+#content {
+	padding:50px 35px 40px 40px; 
+}
+
+
+#content h1{
+	padding-top:25px;
+	font-size: 18px;
+}
+
+#content h1.contacto{
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+#content h2{
+	padding-top:25px;
+	font-size: 15px;
+
+}
+
+#content h3{
+	padding-top:25px;
+	font-size: 13px;
+
+}
+
+#content h3.contacto{
+	margin-left: 60px;
+	padding-top: 10px;
+
+}
+
+#content p{
+	padding-top:6px;
+	line-height: 1.2;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+
+#content p.contacto{
+	margin-left: 80px;
+	padding-top: 0px;
+	
+}
+
+
+#content p.ex{
+	padding-top:3px;
+	margin-left: 30px;
+}
+
+#content p.ex2{
+	padding-top:3px;
+	margin-left: 45px;
+
+}
+
+#sidebar {
+	width: 250px;
+	height: 250px;
+	background-image: url(/img/side.png);
+	float:right;
+}
+
+#sidebarI {
+	width: 250px;
+	height: 250px;
+	background-image: url(/img/sideI.png);
+	float:right;
+}
+
+#sidebarC {
+	width: 250px;
+	height: 500px;
+	background-image: url(/img/side.png);
+	float:right;
+}
+
+
+
+#footer {
+	background:white;
+	background-image: url(/img/footer.png);
+	background-repeat: no-repeat;
+	height: 130px;
+	width:574px;
+	
+}
+
+html:first-child #nav li a{
+	
+	padding: 5px;
+
+	
+} 
+
+.ss-form-container{width: 500px;
+	background-color: #FFF;
+	border: 0px solid #CCC;
+	padding: 0.5em 1em;
+	font-size: 0.9em;}
+
+.ss-q-title{font-weight: bold;
+	padding-left:7px;
+	display: block;}
+
+.ss-q-submit{color: #000;}
+
+.ss-form-entry{margin-bottom: 1.5em;} 
+
+.ss-q-short, .ss-q-submit{
+	background:#f7f7f7;
+	border:solid gray 1px;
+	margin:8px;padding:0px 3px; 
+	color:#666666; }
+	
+
+/*
+     FILE ARCHIVED ON 17:31:15 May 15, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 19:16:35 Aug 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.801
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.019
+  esindex: 0.014
+  cdx.remote: 9.194
+  LoadShardBlock: 253.252 (3)
+  PetaboxLoader3.datanode: 204.605 (4)
+  PetaboxLoader3.resolve: 217.729 (2)
+  load_resource: 194.309
+*/
