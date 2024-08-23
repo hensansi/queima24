@@ -19,7 +19,7 @@ html, body{
 }
 
 #header {
-	background-image: url(/img/header.png);
+	background-image: url(../img/header.png);
 	background-repeat: no-repeat;
 	height: 130px;
 	width:650px;
@@ -79,7 +79,7 @@ ul, li {
 
 #main-content {
 	width: 574px;
-	background-image: white, url(/img/bg_slice.png);
+	background-image: white, url(../img/bg_slice.png);
 	height: 700px;
 	-moz-box-shadow: 0 -6px 110px   #000000;
 	-webkit-box-shadow: 0 -6px 110px   #000000;
@@ -89,7 +89,7 @@ ul, li {
 
 #main-contentI {
 	width: 574px;
-	background-image: white, url(/bg_slice.png);
+	background-image: white, url(../img/bg_slice.png);
 	height: 1550px;
 	-moz-box-shadow: 0 -6px 110px   #000000;
 	-webkit-box-shadow: 0 -6px 110px   #000000;
@@ -100,7 +100,7 @@ ul, li {
 
 #main-contentR {
 	width: 574px;
-	background-image: white, url(/bg_slice.png);
+	background-image: white, url(../img/bg_slice.png);
 	height: 3050px;
 	-moz-box-shadow: 0 -6px 110px   #000000;
 	-webkit-box-shadow: 0 -6px 110px   #000000;
@@ -170,21 +170,21 @@ ul, li {
 #sidebar {
 	width: 250px;
 	height: 250px;
-	background-image: url(/img/side.png);
+	background-image: url(../img/side.png);
 	float:right;
 }
 
 #sidebarI {
 	width: 250px;
 	height: 250px;
-	background-image: url(/img/sideI.png);
+	background-image: url(../img/sideI.png);
 	float:right;
 }
 
 #sidebarC {
 	width: 250px;
 	height: 500px;
-	background-image: url(/img/side.png);
+	background-image: url(../img/side.png);
 	float:right;
 }
 
@@ -192,7 +192,7 @@ ul, li {
 
 #footer {
 	background:white;
-	background-image: url(/img/footer.png);
+	background-image: url(../img/footer.png);
 	background-repeat: no-repeat;
 	height: 130px;
 	width:574px;
@@ -226,24 +226,3 @@ html:first-child #nav li a{
 	margin:8px;padding:0px 3px; 
 	color:#666666; }
 	
-
-/*
-     FILE ARCHIVED ON 17:31:15 May 15, 2013 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 19:16:35 Aug 22, 2024.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 0.801
-  exclusion.robots: 0.04
-  exclusion.robots.policy: 0.019
-  esindex: 0.014
-  cdx.remote: 9.194
-  LoadShardBlock: 253.252 (3)
-  PetaboxLoader3.datanode: 204.605 (4)
-  PetaboxLoader3.resolve: 217.729 (2)
-  load_resource: 194.309
-*/
